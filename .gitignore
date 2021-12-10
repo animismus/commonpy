@@ -1,0 +1,11 @@
+# https://stackoverflow.com/questions/987142/make-gitignore-ignore-everything-except-a-few-files
+
+# -------------- Ignore Everything Since Most of It is useless
+*
+
+# -------------- Check the following files only
+!.gitignore
+# title printing script
+!printit.py 
+!README.md
+
