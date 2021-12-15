@@ -44,7 +44,7 @@ def get_expnos(cda):
 def main():
     cda = CURDATA()
     expnos = get_expnos(cda)
-    sinosavefn = "{3}/{0}/sinosave.csv".format(*cda)
+    sinosavefn = "{}/{}/{}_sinosave_{}.csv".format(cda[3], cda[0], cda[3], dt.now().strftime('%Y-%m-%d'))
     args = list(sys.argv[1:])
 
     # print expnos
