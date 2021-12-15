@@ -1,6 +1,7 @@
 
 """
 JF v1.0 2021-08-25 Working version
+JF v1.5 2021-12-15 Working as intended. It was reading old values from procs
 
 DESC
   Go through all the experiments and do a sino calc and then export the value to a file in the dataset root
